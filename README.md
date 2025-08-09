@@ -29,22 +29,23 @@ Materi berfokus pada konsep **Pewarisan (Inheritance)** dan **Method Overriding*
 struktur file:  
 
 pertemuan5-java-fundamental/  
-└── model
-	└── EducationDivision.java 
-	└── EducationDivision.class
-	└── PubManagement.java 
-	└── PubManagement.class
-	└── SpiritualDivision.java 
-	└── SpiritualDivision.class
-	└── WalfareDivision.java 
-	└── WalfareDivision.class
-└── App.java 
-└── App.class
-└── README.md 
+├── model/  
+│   ├── EducationDivision.java  
+│   ├── EducationDivision.class  
+│   ├── PubManagement.java  
+│   ├── PubManagement.class  
+│   ├── SpiritualDivision.java  
+│   ├── SpiritualDivision.class  
+│   ├── WalfareDivision.java  
+│   └── WalfareDivision.class  
+├── App.java  
+├── App.class  
+└── README.md  
+
 
 
 **Penjelasan File:**  
-- **model** → Berisi atribut dan method umum yang akan diwarisi oleh subclass, dan juga berisi `ParentClass` dan melakukan overriding pada method tertentu untuk menyesuaikan perilaku.  
+- **folder model** → Berisi atribut dan method umum yang akan diwarisi oleh subclass, dan juga berisi `ParentClass` dan melakukan overriding pada method tertentu untuk menyesuaikan perilaku.  
 - **App.java** → Berisi kode utama untuk membuat objek dari `ParentClass` dan `ChildClass` serta menguji pewarisan dan method overriding.  
 
 ## Cara Menjalankan  
